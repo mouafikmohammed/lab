@@ -1,0 +1,21 @@
+000webhost
+ Name Your Project:
+	bsmnDPU
+	wQE5HAbdEe)m3$TmtUNw
+
+ database:
+	db name      id19834563_bsmn
+	db username  id19834563_bsmn_db
+	db pass      _u{Jr1L)m{54zG4f
+
+
+app.infinityfree
+  username epiz_32960015
+  pass     Medmed@123 / U68x6nLFTS
+  Domain: bsmn.rf.gd
+
+	db:
+	  db name       epiz_32960015_bsmn
+	  db username 	epiz_32960015
+	  db host       sql100.epizy.com
+	  pass          Medmed@123 / U68x6nLFTS

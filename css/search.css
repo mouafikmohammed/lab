@@ -1,0 +1,15 @@
+.search {
+   width: 90%;
+   height: auto;
+   border-radius: 5px;
+   margin: 10px auto;
+   padding: 10px;
+}
+.search {
+   margin-top: 20px;
+}
+
+.search {
+   background: rgba(255, 255, 255, 0.25);
+   backdrop-filter: blur(20px);
+ }

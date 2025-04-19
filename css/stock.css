@@ -1,0 +1,84 @@
+/* stock */
+.container{
+	width: 90%;
+	margin: auto;
+	border: 1px solid rgb(0, 0, 0);
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.413);
+}
+table {
+  	margin-left: 25px;
+	width: 95%;
+	border-collapse: collapse;
+}
+
+th,td {
+	padding: 15px;
+   border: 1px solid black;
+	background-color: rgba(5, 7, 8, 0.2);
+	color: rgb(7, 8, 8);
+	font-size: 17px;
+}
+
+th {
+	text-align: left;
+}
+
+th {
+	background: rgb(144, 12, 12);
+	color: white;
+}
+
+td {
+  background-color: #fafafa8f;
+  backdrop-filter: blur(20px);
+}
+
+		
+/*this for pdfpage.php*/
+.label-table {
+	color: white;
+	font-size: 15px;
+}
+select{
+	font-weight: bold !important;
+  	color: #fff !important;
+  	background: #e2abab6e ;
+	border: none;
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 15px;
+	margin-left: 20px;
+}
+option{
+	color: black;
+	border: none;
+}
+.form-pdfpage {
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgba(255, 42, 42, 0.299);
+	width: 40%;
+	margin-left: 25px;
+	margin-top: 30px;
+	padding: 10px;
+}
+.form-pdfpage button{
+	border: 1px solid rgb(0, 0, 0);
+	margin-left: 20px;
+	color: white;
+	border: none;
+	background: #e2abab6e ;
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 15px;
+}
+/*--------------------*/	
+
+
+
+
+
+
+
+
+	

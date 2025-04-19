@@ -1,0 +1,15 @@
+.container{
+    position: relative; left: 33%;
+    opacity: 0.7;
+}
+.card{
+    background-color: #2b6a8d;
+    color: white;
+}
+.btn{
+    color:white;
+
+}
+.btn:hover{
+    background-color: #fea6a7;
+}

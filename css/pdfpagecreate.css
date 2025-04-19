@@ -1,0 +1,49 @@
+.example {
+   width: 50%;
+   float: right;
+   margin-right: 50px;
+   margin-top: 10px;
+}
+.para {
+   background-color: rgb(238, 255, 0);
+   padding: 5px;
+}
+
+.enter {
+   width: 30%;
+   float: left;
+   border: 0px solid yellow;
+   margin-top: 10px;
+   margin-left: 50px;
+   padding: 15px;
+   background-color: rgba(148, 148, 148, 0.452);
+}
+
+input {
+   margin-top: 10px;
+   font-size: 22px;
+   color: black;
+   outline: none;
+   box-sizing: border-box;
+   padding-left: 10px;
+   border: none;
+}
+input:focus{
+   margin-top: 10px;
+   font-size: 22px;
+   background-color: wheat;
+   outline: none;
+   box-sizing: border-box;
+   padding-left: 10px;
+}
+button {
+   font-size: medium;
+   margin-top: 10px;
+   padding: 15px;
+   background-color: rgba(255, 0, 0, 0.276);
+   border: 0px;
+}
+
+#inputs {
+   background-color: rgba(0, 0, 0, 0.311);
+}

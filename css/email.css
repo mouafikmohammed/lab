@@ -1,0 +1,124 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+   font-family: sans-serif;
+}
+/* body background */
+#background {
+   width: 100%; 
+   height: 100%; 
+   position: fixed; 
+   left: 0px; 
+   top: 0px; 
+   z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+.stretch {
+   width:100%;
+   height:100%;
+}
+
+.wrapper .main_content .header{  /*---------headerrrr------*/
+   width: 100%;
+   padding: 15px;
+   background: rgba(110,110,110,0.25);
+   box-shadow: 3px 0px 3px 0 rgba(0,0,0.3);
+   backdrop-filter: blur(10px);
+   color: white;
+}
+
+.header a{
+   color: white;
+   text-decoration:none;
+}
+.header a:hover{
+   color:antiquewhite;
+}
+/* form email----------------------------*/
+.contact {
+   width: 50%;
+   height: 80vh;
+   float: left;
+   border-radius: 10px;
+   margin-left:  25px;
+   margin-top: 10px;
+   background-color: #fafafa61;
+   backdrop-filter: blur(35px);
+}
+.contact h2 {
+   margin-left: 10px;
+   margin-top: 10px;
+}
+.contact form {
+   margin: 25px;
+}
+/* .contact form div input{
+   width: 60%;
+} */
+#comments{
+   width: 90%;
+}
+
+form .btn{
+   background-color: #c7bee470;
+   color: black;
+   border: none;
+}
+
+
+/*---------------------------------*/
+.main_content .header .svg-email {
+   width:20px;
+}
+
+/* Email infos------------------------------*/
+.info {
+   width: 45%;
+   height: 80vh;
+   float: right;
+   border-radius: 10px;
+   margin-right:  20px;
+   margin-top: 10px;
+   background-color: #fafafa61;
+   backdrop-filter: blur(35px);
+}
+.info h2 {
+   margin-left: 10px;
+   margin-top: 10px;
+}
+.article{
+   margin: 20px;
+}
+.article a{
+   color: white;
+   text-decoration:none;
+}
+.article a:hover{
+   color: bisque;
+}
+.article dd{
+   margin-left: 15px;
+}
+
+.article .notice{
+   background-color: rgba(255, 255, 0, 0.189);
+   padding: 5px;
+   font-size: small;
+}
+
+/*if connected or not*/
+.ale {
+   background-color: rgb(173, 255, 173);
+   color: rgb(0, 78, 0);
+   border: 0.5px solid rgb(0, 147, 0);
+   margin-bottom: 0px;
+}
+.ale-not {
+   background-color: rgb(255, 184, 184);
+   color: rgb(150, 0, 0);
+   border: 0.5px solid rgb(182, 0, 0);
+   margin-bottom: 0px;
+}
+/*-------------------*/

@@ -1,0 +1,134 @@
+/* Contacts and Notes */
+.contact {
+  width: 95%;
+  float: left;
+  border-radius: 20px;
+  margin-left:  25px;
+}
+.note {
+  width: 95%;
+  float: left;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+.contact, .note {
+  margin-top: 10px;
+}
+input:focus, textarea:focus{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+  border: 0px solid red;
+  outline: none;
+}
+/*-------------------------*/
+/* contact*/
+.contact {
+  background-color: #fafafa96;
+  backdrop-filter: blur(35px);
+}
+.contact h2 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.info {
+  border: Opx solid black;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.info button {
+  width: 12%;
+  background: rgba(255, 0, 0, 0.358);
+  backdrop-filter: blur(40px);
+  border: none;
+  border-radius: 6px;
+  padding: 9px;
+  margin-top: 25px;
+  font-size: 17px;
+}
+.info input {
+  padding: 4px;
+  margin-right: 35px;
+  font-size: 15px;
+  border: none;
+  font-family: sans-serif;
+}
+.contbl {
+  border-collapse: collapse;
+  width: 95%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.contbl th {
+  background: rgba(255, 0, 0, 0.29);
+}
+.contbl th, .contbl td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+/* end contact*/
+
+/* notes*/
+.note {
+  background-color: #fafafa96;
+  backdrop-filter: blur(35px);
+}
+.note h2 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.note-box {
+  border: Opx solid black;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.labelnote {
+  margin-left: 40px;
+}
+.note-box input,textarea {
+  padding: 4px;
+  font-size: 15px;
+  border: none;
+  font-family: sans-serif;
+}
+textarea{
+  vertical-align: top;
+  width: 300px;
+}
+.note-box button {
+  width: 12%;
+  background: rgba(255, 0, 0, 0.358);
+  backdrop-filter: blur(40px);
+  border: none;
+  padding: 9px;
+  margin-top: 19px;
+  border-radius: 6px;
+  font-size: 17px;
+}
+.note-box input,.note-box textarea {
+  margin: 15px;
+}
+.content-table {
+  border-collapse: collapse;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.content-table th {
+  background: rgba(255, 0, 0, 0.29);
+}
+.content-table th, .content-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+.content-table .th1 {
+  width: 30%;
+}
+/* end notes*/
